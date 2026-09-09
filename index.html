@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub — My Azure Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Student<span>Hub</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#tasks">Tasks</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <p class="eyebrow">MY FIRST AZURE PROJECT</p>
+        <h1>Learn. Build.<br><span>Grow.</span></h1>
+        <p class="hero-text">
+          A simple student dashboard hosted on Microsoft Azure.
+          This is the starting point for turning a basic website into a full-stack cloud application.
+        </p>
+        <a class="primary-btn" href="#courses">Explore Dashboard →</a>
+      </div>
+      <div class="hero-card">
+        <div class="avatar">KV</div>
+        <h3>Welcome, Student 👋</h3>
+        <p>Keep learning and keep building.</p>
+        <div class="progress">
+          <div class="progress-top"><span>Cloud Journey</span><b>35%</b></div>
+          <div class="bar"><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>04</strong><span>Courses</span></div>
+      <div><strong>12</strong><span>Tasks Done</span></div>
+      <div><strong>08</strong><span>Projects</span></div>
+      <div><strong>35%</strong><span>Cloud Progress</span></div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">KEEP LEARNING</p>
+          <h2>My Courses</h2>
+        </div>
+        <span class="badge">This Week</span>
+      </div>
+
+      <div class="course-grid">
+        <article class="course-card">
+          <div class="icon">⌘</div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, JavaScript and modern frontend development.</p>
+          <div class="course-bottom"><span>72% complete</span><a href="#">Continue →</a></div>
+        </article>
+        <article class="course-card">
+          <div class="icon">☁</div>
+          <h3>Microsoft Azure</h3>
+          <p>Cloud hosting, APIs, databases and serverless applications.</p>
+          <div class="course-bottom"><span>35% complete</span><a href="#">Continue →</a></div>
+        </article>
+        <article class="course-card">
+          <div class="icon">▣</div>
+          <h3>Data Structures</h3>
+          <p>Trees, graphs, searching, sorting and algorithmic thinking.</p>
+          <div class="course-bottom"><span>58% complete</span><a href="#">Continue →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section tasks" id="tasks">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">TODAY</p>
+          <h2>My Tasks</h2>
+        </div>
+      </div>
+      <div class="task-list">
+        <label><input type="checkbox"> Finish Azure Static Web Apps setup</label>
+        <label><input type="checkbox"> Push project to GitHub</label>
+        <label><input type="checkbox"> Learn how Azure Functions work</label>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">THE NEXT STEP</p>
+      <h2>From a website to a real cloud app.</h2>
+      <p>
+        This project currently uses only HTML, CSS and JavaScript.
+        Next, you can connect it to Azure Functions, Azure SQL and Blob Storage
+        to turn it into a real full-stack application.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built as a learning project • Ready for Microsoft Azure 🚀</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
