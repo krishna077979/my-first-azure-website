@@ -1,3 +1,7 @@
 {
-  "type": "module"
+  "type": "module",
+  "main": "hello/function.js",
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  }
 }
