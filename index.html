@@ -15,7 +15,14 @@
       <a href="#tasks">Tasks</a>
       <a href="#about">About</a>
     </nav>
-    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+    <div class="nav-actions">
+  <div class="user-menu">
+    <span class="user-avatar" id="userAvatar">?</span>
+    <span class="user-name" id="userName">Loading...</span>
+    <a class="logout-btn" href="/.auth/logout">Sign out</a>
+  </div>
+  <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+</div>
   </header>
 
   <main>
@@ -30,8 +37,8 @@
         <a class="primary-btn" href="#courses">Explore Dashboard →</a>
       </div>
       <div class="hero-card">
-        <div class="avatar">KV</div>
-        <h3>Welcome, Student 👋</h3>
+        <div class="avatar" id="heroAvatar">KV</div>
+<h3 id="welcomeText">Welcome, Student 👋</h3>
         <p>Keep learning and keep building.</p>
         <div class="progress">
           <div class="progress-top"><span>Cloud Journey</span><b>35%</b></div>
